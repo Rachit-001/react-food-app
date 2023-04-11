@@ -1,0 +1,13 @@
+.search-favourites input {
+	padding: 10px 50px;
+}
+
+.favourites-title {
+	color: orangered;
+}
+
+.loading,
+.no-items {
+	color: white;
+	font-size: xx-large;
+}

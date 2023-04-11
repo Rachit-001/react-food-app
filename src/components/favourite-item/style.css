@@ -1,0 +1,43 @@
+.favourites {
+	display: flex;
+	/* flex-wrap: wrap; */
+	gap: 25px;
+	margin-bottom: 3px;
+	/* justify-content: center; */
+	padding: 20px;
+	/* overflow-x: scroll; */
+	overflow-x: auto;
+	/* color: black; */
+	flex-direction: row;
+}
+.favourite-item {
+	border: 1px solid red;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0px 0px 10px 0px orangered;
+	background-color: white;
+}
+
+.favourite-item p {
+	color: orange;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 12px 0 12px 0;
+}
+
+.favourite-item button {
+	background-color: orange;
+	border: 1px solid transparent;
+	padding: 10px 20px;
+	font-weight: 700;
+	font-size: small;
+	cursor: pointer;
+	color: white;
+}
+
+.favourite-item img {
+	text-align: center;
+	/* min-height: 10vh; */
+	height: 100%;
+	padding: 15px;
+}

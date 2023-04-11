@@ -1,0 +1,5 @@
+we will need folooowing commands to run web app without errors
+
+/$env:NODE_OPTIONS = "--openssl-legacy-provider"  //this to sole an error that comes at npm run build
+npm run build
+firebase deploy
